@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1QoeU_nBJwMXbi2C8NP-PvLxhKK7b1ivs
 """
 
-
-=======
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -52,9 +50,6 @@ st.markdown("""
 def load_data():
     """Load RUP data with caching"""
     project_root = Path.cwd()
-<<<<<<< HEAD
-    data_path = project_root / 'RUP-PaketPenyedia-Terumumkan-2025.parquet'
-=======
     data_path = project_root / 'RUP-PaketPenyedia-Terumumkan-2025.parquet'
 
     if not data_path.exists():
@@ -473,4 +468,4 @@ with st.sidebar:
     2. Buka streamlit.io/cloud
     3. Connect repository
     4. Deploy!
-
+    """)
