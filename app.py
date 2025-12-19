@@ -8,7 +8,6 @@ Original file is located at
 """
 
 <<<<<<< HEAD
-!pip install streamlit
 
 =======
 >>>>>>> 02343606bbd3e4e587074e994a8c7957cc906091
@@ -56,7 +55,7 @@ def load_data():
     """Load RUP data with caching"""
     project_root = Path.cwd()
 <<<<<<< HEAD
-    data_path = project_root / 'sample_data/RUP-PaketPenyedia-Terumumkan-2025.parquet'
+    data_path = project_root / 'RUP-PaketPenyedia-Terumumkan-2025.parquet'
 =======
     data_path = project_root / 'RUP-PaketPenyedia-Terumumkan-2025.parquet'
 >>>>>>> 02343606bbd3e4e587074e994a8c7957cc906091
