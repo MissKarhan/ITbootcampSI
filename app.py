@@ -473,8 +473,4 @@ with st.sidebar:
     2. Buka streamlit.io/cloud
     3. Connect repository
     4. Deploy!
-<<<<<<< HEAD
-    """)
-=======
-    """)
->>>>>>> 02343606bbd3e4e587074e994a8c7957cc906091
+
