@@ -56,7 +56,6 @@ def load_data():
     data_path = project_root / 'RUP-PaketPenyedia-Terumumkan-2025.parquet'
 =======
     data_path = project_root / 'RUP-PaketPenyedia-Terumumkan-2025.parquet'
->>>>>>> 02343606bbd3e4e587074e994a8c7957cc906091
 
     if not data_path.exists():
         st.error(f"Dataset not found at {data_path}")
