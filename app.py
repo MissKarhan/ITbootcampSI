@@ -7,10 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1QoeU_nBJwMXbi2C8NP-PvLxhKK7b1ivs
 """
 
-<<<<<<< HEAD
 
 =======
->>>>>>> 02343606bbd3e4e587074e994a8c7957cc906091
 import streamlit as st
 import pandas as pd
 import plotly.express as px
